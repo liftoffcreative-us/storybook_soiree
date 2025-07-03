@@ -21,6 +21,7 @@
   --color-ssPurple: #110926;
   --color-ssLavender: #a48eae;
   --color-ssPink: #fcd1f5;
+  --color-frostFire: #557694;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -12,6 +12,7 @@ import NavBar from './components/NavBar';
 import BookClub from './components/BookClub';
 import BOTM from './components/BOTM';
 import Retreats from './components/Retreats';
+import FrostFire from './components/FrostFire';
 
 export default function Home() {
   const ref = useRef(null);
@@ -75,6 +76,7 @@ export default function Home() {
       <BookClub />
       <BOTM />
       <Retreats />
+      <FrostFire />
     </div>
   );
 }
