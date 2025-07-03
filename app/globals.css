@@ -1,5 +1,4 @@
 @import url('https://use.typekit.net/dbl5ihb.css');
-@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
 
 @import 'tailwindcss';
 
@@ -13,7 +12,6 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-lexendGiga: 'Lexend Giga', sans-serif;
   --font-alfarn: 'alfarn', sans-serif;
   --font-lavishly: 'Lavishly Yours', serif;
   --font-a-day-without: 'a-day-without-sun-text', sans-serif;
@@ -43,4 +41,8 @@ html {
 
 .lavishly {
   font-family: var(--font-lavishly);
+}
+
+.a-day-without {
+  font-family: var(--font-a-day-without);
 }

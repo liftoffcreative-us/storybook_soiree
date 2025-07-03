@@ -1,6 +1,12 @@
 import { Geist, Geist_Mono, Lavishly_Yours } from 'next/font/google';
+import localFont from 'next/font/local';
+
 import './globals.css';
 
+const a_day_without = localFont({
+  src: '/fonts/A Day Without Sun Text Regular.ttf',
+  variable: '--font-a_day_without',
+});
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
