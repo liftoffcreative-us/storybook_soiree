@@ -7,6 +7,10 @@ const a_day_without = localFont({
   src: '/fonts/A Day Without Sun Text Regular.ttf',
   variable: '--font-a_day_without',
 });
+const alfarn = localFont({
+  src: '/fonts/Alfarn Regular.ttf',
+  variable: '--font-alfarn',
+});
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
@@ -32,7 +36,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${lavishly.variable} ${a_day_without.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${lavishly.variable} ${a_day_without.variable} ${alfarn.variable} antialiased`}
       >
         {children}
       </body>
