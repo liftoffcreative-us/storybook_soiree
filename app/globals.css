@@ -1,4 +1,4 @@
-@import url('https://use.typekit.net/dbl5ihb.css');
+/* @import url('https://use.typekit.net/dbl5ihb.css'); */
 
 @import 'tailwindcss';
 
@@ -14,8 +14,9 @@
   --font-mono: var(--font-geist-mono);
   --font-alfarn: 'alfarn', sans-serif;
   --font-lavishly: 'Lavishly Yours', serif;
-  /* --font-a-day-without: var(--font-a_day_without); */
+  --font-a-day-without: 'a_day_without', serif;
   --font-indivisible: 'indivisible', sans-serif;
+  --font-indivisibleBold: 'indivisibleBold', sans-serif;
   --color-ssPurple: #110926;
   --color-ssLavender: #a48eae;
   --color-ssPink: #fcd1f5;

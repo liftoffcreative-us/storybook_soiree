@@ -11,6 +11,14 @@ const alfarn = localFont({
   src: '/fonts/Alfarn Regular.ttf',
   variable: '--font-alfarn',
 });
+const indivisible = localFont({
+  src: '/fonts/Indivisible Regular.ttf',
+  variable: '--font-indivisible',
+});
+const indivisibleBold = localFont({
+  src: '/fonts/Indivisible SemiBold.ttf',
+  variable: '--font-indivisibleBold',
+});
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
@@ -36,7 +44,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${lavishly.variable} ${a_day_without.variable} ${alfarn.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${lavishly.variable} ${a_day_without.variable} ${alfarn.variable} ${indivisible.variable} ${indivisibleBold.variable} antialiased`}
       >
         {children}
       </body>

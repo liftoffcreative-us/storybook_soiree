@@ -56,7 +56,7 @@ const BOTM = () => {
               <div className='flex flex-col items-center justify-between gap-2 pb-[3vh] bg-white rounded-2xl w-full h-[400px] text-ssPurple text-center px-4 '>
                 <div className='h-[110px]'></div>
                 <div>
-                  <h3 className='font-indivisible font-bold text-[2em] leading-tight'>
+                  <h3 className='font-indivisibleBold text-[2em] leading-tight'>
                     {book.bookName}
                   </h3>
                   <h4 className='text-[1.2em] font-indivisible font-light'>
