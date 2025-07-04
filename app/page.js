@@ -15,6 +15,7 @@ import Retreats from './components/Retreats';
 import FrostFire from './components/FrostFire';
 import Hero from './components/Hero';
 import HeroMobile from './components/HeroMobile';
+import NavBarMobile from './components/NavBarMobile';
 
 export default function Home() {
   const mainBody = useRef(null);
@@ -35,6 +36,7 @@ export default function Home() {
       className='flex flex-col w-screen h-auto bg-white '
     >
       <NavBar scroll={scrollYProgressTarget2} />
+      <NavBarMobile />
       <HeroMobile />
       <Hero />
       <About />

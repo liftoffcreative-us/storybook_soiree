@@ -95,9 +95,11 @@ const Retreats = () => {
               backgroundPosition: 'center',
             }}
           ></div>
-          <button className='bg-[#557694] px-12 py-4 rounded-3xl cursor-pointer'>
-            LEARN MORE
-          </button>
+          <a href='/retreats'>
+            <button className='bg-[#557694] px-12 py-4 rounded-3xl cursor-pointer md:hidden flex'>
+              LEARN MORE
+            </button>
+          </a>
         </div>
       </div>
     </div>
