@@ -15,7 +15,7 @@ const BookClub = () => {
         className='w-[100vw] -mt-[15vw] border '
       />
 
-      <div className='flex flex-col items-center -mt-[30vh]'>
+      <div className='flex flex-col items-center -mt-[25vh]'>
         <h2 className='text-[3rem]  lavishly py-4'>Welcome to the Book Club</h2>
         <p className='w-3/4 a-day-without text-[2rem] text-center'>
           Welcome to the Storybook Soirees Book Club (The Soiree Society)—a

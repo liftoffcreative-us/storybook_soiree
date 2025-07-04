@@ -27,9 +27,9 @@ export default function Home() {
     offset: ['start end', 'end start'],
   });
 
-  // useMotionValueEvent(scrollYProgressTarget2, 'change', (latest) => {
-  //   console.log('Page Scroll: ', latest);
-  // });
+  useMotionValueEvent(scrollYProgressTarget2, 'change', (latest) => {
+    console.log(latest);
+  });
 
   const yBack = useTransform(scrollYProgressTarget1, [0, 1], [-500, 1000]);
   const yMid = useTransform(scrollYProgressTarget1, [0, 1], [-100, 500]);
@@ -38,7 +38,7 @@ export default function Home() {
 
   return (
     <div id='home' ref={mainBody} className='flex flex-col w-screen bg-white '>
-      <NavBar />
+      <NavBar scroll={scrollYProgressTarget2} />
       <div className='relative w-screen h-screen overflow-hidden'>
         <div id='hero' ref={ref} className='relative w-screen h-[200vh]'>
           <ParallaxImage
