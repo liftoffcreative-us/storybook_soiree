@@ -41,13 +41,16 @@ const BOTM = () => {
   ];
   return (
     <div className='flex flex-col items-center justify-center bg-ssLavender w-screen h-auto py-[5vh]'>
-      <h2 className='font-a-day-without font-bold text-[4rem]'>
+      <h2 className='font-a-day-without font-bold md:text-[4rem] text-[2rem] text-center'>
         THIS MONTH'S READS
       </h2>
-      <div className='flex items-center justify-center gap-6 w-[90vw] overflow-hidden py-[5vh]'>
+      <div className='flex md:flex-row flex-col items-center justify-center gap-6 w-[90vw] overflow-hidden py-[5vh]'>
         {botmData.map((book) => {
           return (
-            <div key={book.id} className='w-[20%] flex flex-col items-center '>
+            <div
+              key={book.id}
+              className='md:w-[20%] w-[90%] flex flex-col items-center '
+            >
               <img
                 src={book.bookCoverImage}
                 alt='book cover picture'

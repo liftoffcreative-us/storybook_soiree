@@ -51,18 +51,10 @@ const NavBar = ({ scroll }) => {
 
   return (
     <motion.nav
-      className='flex fixed items-center justify-between w-screen h-[10vh] px-[6vw] py-2 z-50 overflow-hidden'
+      className='hidden md:flex fixed items-center justify-between w-screen h-[10vh] px-[6vw] py-2 z-50 overflow-hidden '
       style={{ backgroundColor, color }}
     >
       <a href='#home' id='logo' className='flex items-center h-[100%] -mt-3'>
-        {/* <Image
-          src='/logoWhiteLong.svg'
-          alt='Logo'
-          width={600}
-          height={100}
-          className='h-[80%] w-auto'
-          style={{ fill }}
-        /> */}
         <motion.svg
           id='Layer_2'
           data-name='Layer 2'
@@ -122,16 +114,16 @@ const NavBar = ({ scroll }) => {
         </a>
       </ul>
       <div className='flex items-center gap-4 justify-center h-[10vh]  pl-12 '>
-        <a href=''>
+        <a href='https://www.instagram.com/storybooksoireesllc/#'>
           <RiInstagramFill className='text-[1.5em]' />
         </a>
-        <a href=''>
+        <a href='https://discord.com/invite/rg6zqb5m6J'>
           <RiDiscordFill className='text-[1.5em]' />
         </a>
-        <a href=''>
+        <a href='https://www.tiktok.com/@storybook_soirees'>
           <FaTiktok className='text-[1.5em]' />
         </a>
-        <a href=''>
+        <a href='mailto:storybooksoireesllc@gmail.com'>
           <FaEnvelope className='text-[1.5em]' />
         </a>
       </div>
