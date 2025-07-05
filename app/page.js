@@ -36,7 +36,7 @@ export default function Home() {
       className='flex flex-col w-screen h-auto bg-white '
     >
       <NavBar scroll={scrollYProgressTarget2} />
-      <NavBarMobile />
+      <NavBarMobile scroll={scrollYProgressTarget2} />
       <HeroMobile />
       <Hero />
       <About />

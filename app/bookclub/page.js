@@ -7,7 +7,7 @@ const bookclub = () => {
   return (
     <div className='w-screen h-screen'>
       <NavBarAlt />
-      <NavBarMobile />
+      {/* <NavBarMobile /> */}
     </div>
   );
 };
