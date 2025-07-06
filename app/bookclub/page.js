@@ -1,13 +1,12 @@
 import React from 'react';
 import NavBarAlt from '../components/NavBarAlt';
-
-import NavBarMobile from '../components/NavBarMobile';
+import NavBarMobileAlt from '../components/NavBarMobileAlt';
 
 const bookclub = () => {
   return (
     <div className='w-screen h-screen'>
       <NavBarAlt />
-      {/* <NavBarMobile /> */}
+      <NavBarMobileAlt />
     </div>
   );
 };
