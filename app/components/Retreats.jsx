@@ -35,7 +35,7 @@ const Retreats = () => {
       ></div>
       <div className='flex md:flex-row flex-col items-center w-[90vw] md:h-[85vh] h-[130vh] '>
         <div className='flex flex-col items-center md:items-start md:gap-[1vw] gap-6 md:w-1/2 h-full px-[2vw] '>
-          <h2 className='md:w-3/4 w-[90%] font-indivisible font-bold md:text-[3.5em] text-[2.5em] text-center md:text-left md:leading-15 text-gray-700 mt-[5vh]'>
+          <h2 className='md:w-3/4 w-[90%] font-indivisible font-bold md:text-[3.5em] text-[2.5em] text-center md:text-left md:leading-15 text-gray-700 mt-[2vh] '>
             AN ALL INCLUSIVE ESCAPE FOR BOOK LOVERS
           </h2>
           <p className='md:w-5/6 w-[90%] font-indivisible font-light text-gray-700 text-[1.5em] text-center md:text-left md:leading-tight'>
@@ -44,8 +44,11 @@ const Retreats = () => {
             enchanting activities, or indulging in gourmet dining, this retreat
             is designed just for you.
           </p>
+          <button className='bg-[#c900d0] px-12 py-4 rounded-3xl cursor-pointer hidden md:flex '>
+            GET THE DETAILS
+          </button>
           {/* Section to preview retreats */}
-          <div className='hidden md:flex md:items-center absolute w-[70vw] h-[25vh] bg-white -ml-[10vw] rounded-3xl mt-[55vh] overflow-hidden'>
+          <div className='hidden md:flex md:items-center absolute w-[70vw] h-[25vh] bg-white -ml-[10vw] rounded-3xl mt-[60vh] overflow-hidden'>
             <div className='w-[10vw] h-[90%] '></div>
             <div className='w-auto flex gap-8 items-center justify-center'>
               <div className='w-[35vw] flex flex-col gap-2 text-gray-700 font-indivisible'>
@@ -86,7 +89,12 @@ const Retreats = () => {
           </div>
         </div>
         {/* Image for selected retreat */}
-        <div className='flex flex-col items-center justify-center md:w-1/2 w-[95%] h-full mt-[5vh] gap-4'>
+        <div className='flex flex-col items-center justify-center md:w-1/2 w-[95%] h-full  gap-4'>
+          <a href='/retreats'>
+            <button className='bg-[#c900d0] px-12 py-4 rounded-3xl cursor-pointer md:hidden flex my-[2vh]'>
+              GET THE DETAILS
+            </button>
+          </a>
           <div
             className='flex items-center justify-center md:w-[85%] md:h-[95%] w-full h-full rounded-3xl overflow-hidden'
             style={{
@@ -95,11 +103,6 @@ const Retreats = () => {
               backgroundPosition: 'center',
             }}
           ></div>
-          <a href='/retreats'>
-            <button className='bg-[#557694] px-12 py-4 rounded-3xl cursor-pointer md:hidden flex'>
-              LEARN MORE
-            </button>
-          </a>
         </div>
       </div>
     </div>
