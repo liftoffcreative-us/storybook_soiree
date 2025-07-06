@@ -56,6 +56,7 @@ const NavBarAlt = ({ scroll }) => {
     >
       <a href='#home' id='logo' className='flex items-center h-[100%] -mt-3'>
         <motion.svg
+          alt='Storybook Soiree Logo'
           id='Layer_2'
           data-name='Layer 2'
           xmlns='http://www.w3.org/2000/svg'

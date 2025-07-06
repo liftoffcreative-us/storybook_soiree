@@ -5,7 +5,7 @@ const FrostFire = () => {
   return (
     <div
       id='frostfire'
-      className='relative flex items-center justify-center w-screen h-screen bg-[url(/frostfire.jpg)] bg-cover bg-center'
+      className='relative flex items-center justify-center w-screen h-screen bg-[url(/frostfirebg.jpg)] bg-cover bg-center'
     >
       <div className='w-full h-full relative flex items-center justify-center bg-[rgba(0,32,62,.4)]'>
         <Snowfall />
@@ -16,7 +16,7 @@ const FrostFire = () => {
           <h3 className='font-indivisibleBold text-[1rem] md:text-[1.8rem]'>
             Nashville, TN - January 24, 2026
           </h3>
-          <p className='font-indivisible md:text-[1.5rem] text-[1rem] md:pt-12 pt-4'>
+          <p className='font-indivisible md:text-[1.6rem] md:w-[60vw] text-[1rem] md:pt-12 pt-4 leading-tight'>
             Join us for an evening where icy elegance meets the warmth of human
             connection, where we collectively strive to heal a shattered heart
             and usher in a new dawn for the winter kingdom. Or overthrow the

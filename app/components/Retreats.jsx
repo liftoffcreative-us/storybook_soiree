@@ -25,6 +25,7 @@ const Retreats = () => {
     <div className='flex flex-col items-center w-screen h-[140vh] bg-ssPink md:overflow-hidden'>
       <Image
         src='/book_section_bottom.svg'
+        alt='decorative divider'
         width={1920}
         height={200}
         className='-mt-[2vw]'
