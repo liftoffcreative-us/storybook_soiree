@@ -11,7 +11,7 @@ const About = () => {
         alt='Purple grass tops the next section'
         className='w-screen h-auto md:-mt-[25vh] -mt-[8vh] z-45 '
       />
-      <p className='flex mt-[10vh] text-[1.1rem] w-3/4 h-full md:text-[1.5vw] font-indivisible'>
+      <p className='flex mt-[10vh] md:mt-[0vh] text-[1.1rem] w-3/4 h-full md:text-[1.5vw] font-indivisible'>
         Calling all readers, fantasy lovers, and kindred spirits—this is your
         place to escape into the magic of stories, build lifelong friendships,
         and celebrate the books we love in unforgettable ways! Experience a
