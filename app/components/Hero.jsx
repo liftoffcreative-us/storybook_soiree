@@ -16,8 +16,8 @@ const Hero = () => {
 
   const yBack = useTransform(scrollYProgressTarget1, [0, 1], [-500, 1000]);
   const yMid = useTransform(scrollYProgressTarget1, [0, 1], [-100, 500]);
-  const yfront = useTransform(scrollYProgressTarget1, [0, 1], [500, 100]);
-  const ytext = useTransform(scrollYProgressTarget1, [0, 1], [300, 300]);
+  const yfront = useTransform(scrollYProgressTarget1, [0, 1], [400, 200]);
+  const ytext = useTransform(scrollYProgressTarget1, [0, 1], [150, 400]);
 
   return (
     <div className='relative w-screen h-screen overflow-hidden hidden md:flex'>
@@ -29,7 +29,7 @@ const Hero = () => {
           className={'absolute z-20 w-full h-[120vh]'}
         />
         <ParallaxImage
-          src={'/hero-midground.png'}
+          src={'/hero-mid2.png'}
           alt={'A picture of a castle on a hill'}
           y={yMid}
           className={'absolute z-30 w-full'}
@@ -46,7 +46,7 @@ const Hero = () => {
           </h1>
         </motion.div>
         <ParallaxImage
-          src={'/hero_foreground.png'}
+          src={'/hero-fore2.png'}
           alt={'A book sits on a tree stump overlooking the scenery'}
           y={yfront}
           className={'absolute z-40 w-full'}
