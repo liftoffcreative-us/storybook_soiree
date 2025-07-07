@@ -45,9 +45,11 @@ const Retreats = () => {
             enchanting activities, or indulging in gourmet dining, this retreat
             is designed just for you.
           </p>
-          <button className='bg-[#c900d0] px-12 py-4 rounded-3xl cursor-pointer hidden md:flex '>
-            GET THE DETAILS
-          </button>
+          <a href='/retreats'>
+            <button className='bg-[#c900d0] px-12 py-4 rounded-3xl cursor-pointer hidden md:flex '>
+              GET THE DETAILS
+            </button>
+          </a>
           {/* Section to preview retreats */}
           <div className='hidden md:flex md:items-center absolute w-[70vw] h-[25vh] bg-white -ml-[10vw] rounded-3xl mt-[60vh] overflow-hidden'>
             <div className='w-[10vw] h-[90%] '></div>

@@ -19,7 +19,7 @@ const BookClub = () => {
         <h2 className='md:text-[3rem] text-[2.5rem]  lavishly py-4'>
           Welcome to the Book Club
         </h2>
-        <p className='w-3/4 a-day-without md:text-[2rem] text-[1.2rem] text-center'>
+        <p className='w-3/4 a-day-without md:text-[2rem] text-[1.35rem] text-center'>
           Welcome to the Storybook Soirees Book Club (The Soiree Society)—a
           reading experience designed for every kind of book lover! Each month,
           we offer four captivating book choices, ranging from No-Low Spice
