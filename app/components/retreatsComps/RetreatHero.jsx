@@ -3,7 +3,7 @@ import React from 'react';
 
 const RetreatHero = () => {
   return (
-    <div className='hidden w-screen h-[110vh] md:flex items-center justify-center   bg-ssLavender'>
+    <div className='hidden w-screen h-[100vh] md:flex items-center justify-center   bg-ssLavender'>
       <div className='w-[90vw]  flex items-center justify-center'>
         <Image
           src='/retreatHero.png'

@@ -18,13 +18,13 @@ const RetreatHeroMobile = () => {
         height={383}
         className='w-[85%] -mt-[3vh]'
       />
-      <div className='flex items-center justify-center w-full h-auto mt-[18vh]'>
+      <div className='flex items-center justify-center w-[120vw] h-[40vh] -mt-[3vh] overflow-hidden'>
         <Image
           src='/groupPhoto2.png'
           alt='A photo of attendees from a previous event'
           width={475}
           height={344}
-          className='absolute w-[90%]  ml-[60vw] rotate-6'
+          className='w-[90vw] ml-[30vw] rotate-6'
         />
         <Image
           src='/groupPhoto1.png'
