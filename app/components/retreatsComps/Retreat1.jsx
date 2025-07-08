@@ -42,7 +42,7 @@ const Retreat1 = () => {
             🏰📖💫] Every great adventure starts with the perfect setting—choose
             the retreat experience that suits your tale!{' '}
           </p>
-          <div className='flex md:flex-row flex-col items-center  w-[90%] md:h-[65%] gap-6 md:mt-0 mt-8'>
+          <div className='flex md:flex-row flex-col items-center w-[100%] md:h-[65%] gap-6 md:mt-0 mt-8'>
             <div
               id='card1'
               className='md:w-[40%] w-full h-[85%] flex flex-col md:items-start items-center justify-between bg-white rounded-3xl hover:outline-purple-500 hover:outline-4 transition-all duration-150 px-4 py-6'
