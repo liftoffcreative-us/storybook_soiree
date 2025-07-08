@@ -3,28 +3,31 @@ import React from 'react';
 
 const Retreat1 = () => {
   return (
-    <div className='w-screen flex flex-col items-center mt-[10vh]'>
+    <div className='w-screen flex flex-col items-center mt-[10vh] '>
       <Image
         src='/purpleBorder.svg'
         width={1920}
         height={200}
         alt='a purple paint stroke border'
+        className=''
       />
-      <div className='w-screen h-[110vh] flex items-center justify-center bg-ssPurple -mt-[10vh]'>
-        <div className='w-[45%] h-[80%] flex items-center justify-center overflow-clip '>
+      <div className='w-screen md:h-[110vh] flex md:flex-row flex-col items-center justify-center bg-ssPurple md:-mt-[10vh]'>
+        <div className='md:w-[45%] h-[80%] flex items-center justify-center overflow-clip '>
           <Image
             src='/retreat2.png'
             width={1080}
             height={1350}
             alt='a collage of pictures for the Pigeon Forge retreat'
-            className='h-[90%] w-auto'
+            className='h-[90%] w-auto mb-8 md:mb-0'
           />
         </div>
-        <div className='w-[45%] h-[80%] flex flex-col  justify-center text-white font-indivisible'>
-          <h2 className='text-[2em] font-indivisibleBold leading-tight'>
+        <div className='md:w-[45%] w-[80%] md:h-[80%] flex flex-col pb-8 md:pb-0 justify-center text-white font-indivisible md:text-left text-center'>
+          <h2 className='md:text-[2em] text-[1.8em] font-indivisibleBold leading-tight'>
             Choose your Storybook Stay for our Sevierville/Pigeon Forge Retreat
           </h2>
-          <h3 className='text-[1.2em] mt-[1vh]'>August 14th - 17th</h3>
+          <h3 className='text-[1.2em] md:mt-[1vh] my-4 md:mb-0'>
+            August 14th - 17th
+          </h3>
           <p>
             Our next Storybook Soirées Bookish Retreat is taking place in the
             stunning Smoky Mountains of Sevierville, TN! 🌲✨ Get ready for a
@@ -39,13 +42,13 @@ const Retreat1 = () => {
             🏰📖💫] Every great adventure starts with the perfect setting—choose
             the retreat experience that suits your tale!{' '}
           </p>
-          <div className='flex items-center  w-[90%] h-[65%] gap-6'>
+          <div className='flex md:flex-row flex-col items-center  w-[90%] md:h-[65%] gap-6 md:mt-0 mt-8'>
             <div
               id='card1'
-              className='w-[40%] h-[85%] flex flex-col justify-between bg-white rounded-3xl hover:outline-purple-500 hover:outline-4 transition-all duration-150 px-4 py-6'
+              className='md:w-[40%] w-full h-[85%] flex flex-col md:items-start items-center justify-between bg-white rounded-3xl hover:outline-purple-500 hover:outline-4 transition-all duration-150 px-4 py-6'
             >
               <div className='flex flex-col w-full h-[20%]'>
-                <h2 className='text-[#431ea5] font-alfarn text-[1.2em] flex items-center w-full leading-6'>
+                <h2 className='text-[#431ea5] font-alfarn text-[1.2em] flex items-center justify-center md:justify-start w-full leading-6'>
                   THE ROYAL SUITE <span className='mb-2 text-[1.4em]'>👑</span>
                 </h2>
                 <h4 className='text-slate-500 text-[.8em]'>
@@ -70,7 +73,7 @@ const Retreat1 = () => {
             </div>
             <div
               id='card2'
-              className='w-[40%] h-[85%] flex flex-col justify-between bg-white rounded-3xl hover:outline-purple-500 hover:outline-4 transition-all duration-150 px-4 py-6'
+              className='md:w-[40%] w-full h-[85%] flex flex-col md:items-start items-center justify-between bg-white rounded-3xl hover:outline-purple-500 hover:outline-4 transition-all duration-150 px-4 py-6'
             >
               <div className='flex flex-col w-full h-[20%]'>
                 <h2 className='text-[#431ea5] font-alfarn text-[1.2em] flex items-center w-full leading-6'>
@@ -103,7 +106,7 @@ const Retreat1 = () => {
         width={1920}
         height={200}
         alt='a purple paint stroke border'
-        className='rotate-180 -mt-[10vh]'
+        className='rotate-180 md:-mt-[10vh]'
       />
     </div>
   );
