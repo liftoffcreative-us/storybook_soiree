@@ -7,7 +7,7 @@ const NavBarMobile = ({ scroll }) => {
   const [open, setOpen] = useState(false);
   const backgroundColor = useTransform(
     scroll,
-    [0, 0.18, 0.185, 0.295, 0.305, 0.75, 0.758, 0.89, 0.9, 1],
+    [0, 0.18, 0.185, 0.28, 0.289, 0.7, 0.716, 0.84, 0.85, 1],
     [
       'rgba(17,9,38, 0)',
       'rgba(17,9,38, 0)',
@@ -17,8 +17,8 @@ const NavBarMobile = ({ scroll }) => {
       'rgba(164,142,174, 1)',
       'rgba(252,209,245, 1)',
       'rgba(252,209,245, 1)',
-      'rgba(17,9,38, 0)',
-      'rgba(17,9,38, 0)',
+      'rgba(100, 124,147, 1)',
+      'rgba(100, 124,147, 1)',
     ]
   );
 

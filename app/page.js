@@ -16,6 +16,7 @@ import FrostFire from './components/FrostFire';
 import Hero from './components/Hero';
 import HeroMobile from './components/HeroMobile';
 import NavBarMobile from './components/NavBarMobile';
+import Footer from './components/Footer';
 
 export default function Home() {
   const mainBody = useRef(null);
@@ -44,6 +45,7 @@ export default function Home() {
       <BOTM />
       <Retreats />
       <FrostFire />
+      <Footer />
     </div>
   );
 }

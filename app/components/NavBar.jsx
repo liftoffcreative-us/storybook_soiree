@@ -9,7 +9,7 @@ import { motion, useTransform } from 'framer-motion';
 const NavBar = ({ scroll }) => {
   const backgroundColor = useTransform(
     scroll,
-    [0, 0.24, 0.25, 0.4, 0.41, 0.671, 0.69, 0.85, 0.86, 1],
+    [0, 0.24, 0.25, 0.395, 0.403, 0.66, 0.677, 0.82, 0.833, 1],
     [
       'rgba(17,9,38, 0)',
       'rgba(17,9,38, 0)',
@@ -19,14 +19,14 @@ const NavBar = ({ scroll }) => {
       'rgba(164,142,174, 1)',
       'rgba(252,209,245, 1)',
       'rgba(252,209,245, 1)',
-      'rgba(17,9,38, 0)',
-      'rgba(17,9,38, 0)',
+      'rgba(100, 124,147, 1)',
+      'rgba(100, 124,147, 1)',
     ]
   );
 
   const color = useTransform(
     scroll,
-    [0, 0.671, 0.69, 0.85, 0.86, 1],
+    [0, 0.665, 0.678, 0.824, 0.835, 1],
     [
       'rgba(255, 255, 255, 1)',
       'rgba(255, 255, 255, 1)',
@@ -38,7 +38,7 @@ const NavBar = ({ scroll }) => {
   );
   const fill = useTransform(
     scroll,
-    [0, 0.671, 0.69, 0.85, 0.86, 1],
+    [0, 0.665, 0.678, 0.824, 0.835, 1],
     [
       'rgba(255, 255, 255, 1)',
       'rgba(255, 255, 255, 1)',
