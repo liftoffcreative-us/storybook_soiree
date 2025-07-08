@@ -4,6 +4,7 @@ import NavBarMobileAlt from '../components/NavBarMobileAlt';
 import RetreatHero from '../components/retreatsComps/RetreatHero';
 import Retreat1 from '../components/retreatsComps/Retreat1';
 import RetreatHeroMobile from '../components/retreatsComps/RetreatHeroMobile';
+import Included from '../components/retreatsComps/Included';
 
 const retreats = () => {
   return (
@@ -12,6 +13,7 @@ const retreats = () => {
       <NavBarMobileAlt />
       <RetreatHero />
       <RetreatHeroMobile />
+      <Included />
       <Retreat1 />
     </div>
   );
