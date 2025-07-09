@@ -12,7 +12,7 @@ const Footer = () => {
         alt='footer section border'
         height={300}
         width={1920}
-        className='md:-mt-[17vh] z-100'
+        className='md:-mt-[17vh] -mt-[4vh] z-100'
       />
       <div className='flex md:flex-row flex-col items-center justify-between text-white w-[85vw] '>
         <div className='flex flex-col items-center md:items-start justify-center p-6 md:w-[45%]'>
@@ -24,7 +24,7 @@ const Footer = () => {
             hear about our latest news, events, and promotions. Don't miss out
             on these insider perks - join today!
           </p>
-          <form
+          {/* <form
             action='https://squareup.com/outreach/hPZRZx/subscribe'
             method='POST'
             target='_blank '
@@ -43,7 +43,16 @@ const Footer = () => {
             >
               Join Now
             </button>
-          </form>
+          </form> */}
+          <a
+            href='https://squareup.com/customer-programs/enroll/4Z5mt8BYb3Rn?utm_source=postoffice'
+            target='_blank'
+            className='py-4'
+          >
+            <button className='cursor-pointer bg-ssLavender text-white px-12 py-2 rounded-lg  '>
+              Join Now
+            </button>
+          </a>
           <h6 className='text-[.7em] text-gray-500 cursor-pointer'>
             We respect your privacy and do not sell or share personal
             information. Click here to see our Pravacy Policy
