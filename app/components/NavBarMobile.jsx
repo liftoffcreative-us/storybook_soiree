@@ -52,11 +52,13 @@ const NavBarMobile = ({ scroll }) => {
         className='flex items-center justify-between w-screen h-[12vh] p-6'
         style={{ backgroundColor }}
       >
-        <img
-          src='/logoIconWhite.svg'
-          alt='Storybook Flying with Fairy Dust trailing'
-          className='w-[20vw] z-[100]'
-        />
+        <a href='#home'>
+          <img
+            src='/logoIconWhite.svg'
+            alt='Storybook Flying with Fairy Dust trailing'
+            className='w-[20vw] z-[100]'
+          />
+        </a>
         <img
           src='/hbMenu.svg'
           alt='Menu Icon'

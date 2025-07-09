@@ -1,3 +1,12 @@
+'use client';
+
+import {
+  motion,
+  useMotionValueEvent,
+  useScroll,
+  useTransform,
+} from 'framer-motion';
+import { useRef } from 'react';
 import React from 'react';
 import NavBarAlt from '../components/NavBarAlt';
 import NavBarMobileAlt from '../components/NavBarMobileAlt';
@@ -7,10 +16,20 @@ import RetreatHeroMobile from '../components/retreatsComps/RetreatHeroMobile';
 import Included from '../components/retreatsComps/Included';
 
 const retreats = () => {
+  const mainBody = useRef(null);
+
+  const { scrollYProgress: scrollYProgressTarget2 } = useScroll({
+    target: mainBody,
+    offset: ['start end', 'end start'],
+  });
+  useMotionValueEvent(scrollYProgressTarget2, 'change', (latest) => {
+    console.log(latest);
+  });
+
   return (
-    <div className='w-screen bg-ssLavender'>
+    <div ref={mainBody} id='top' className='w-screen bg-ssLavender'>
       <NavBarAlt bgColor={'#a48eae'} />
-      <NavBarMobileAlt />
+      <NavBarMobileAlt scroll={scrollYProgressTarget2} />
       <RetreatHero />
       <RetreatHeroMobile />
       <Included />

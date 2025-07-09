@@ -9,7 +9,7 @@ const RetreatHeroMobile = () => {
         alt='A vintage poster advertising the Bookish Retreats'
         width={1049}
         height={1455}
-        className='w-[90%] mt-[8vh]'
+        className='w-[90%] mt-[12vh]'
       />
       <Image
         src='/martinQuote.png'

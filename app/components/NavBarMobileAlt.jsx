@@ -5,22 +5,16 @@ import { motion, useTransform } from 'framer-motion';
 
 const NavBarMobileAlt = ({ scroll }) => {
   const [open, setOpen] = useState(false);
-  // const backgroundColor = useTransform(
-  //   scroll,
-  //   [0, 0.193, 0.196, 0.302, 0.313, 0.75, 0.758, 0.89, 0.9, 1],
-  //   [
-  //     'rgba(17,9,38, 0)',
-  //     'rgba(17,9,38, 0)',
-  //     'rgba(17,9,38, 1)',
-  //     'rgba(17,9,38, 1)',
-  //     'rgba(164,142,174, 1)',
-  //     'rgba(164,142,174, 1)',
-  //     'rgba(252,209,245, 1)',
-  //     'rgba(252,209,245, 1)',
-  //     'rgba(17,9,38, 0)',
-  //     'rgba(17,9,38, 0)',
-  //   ]
-  // );
+  const backgroundColor = useTransform(
+    scroll,
+    [0, 0.587, 0.598, 1],
+    [
+      'rgba(164,142,174, 1)',
+      'rgba(164,142,174, 1)',
+      'rgba(17,9,38, 1)',
+      'rgba(17,9,38, 1)',
+    ]
+  );
 
   // const color = useTransform(
   //   scroll,
@@ -50,13 +44,15 @@ const NavBarMobileAlt = ({ scroll }) => {
     <div className='fixed flex w-screen h-auto text-white md:hidden z-[1000]'>
       <motion.div
         className='flex items-center justify-between w-screen h-[12vh] p-6'
-        // style={{ backgroundColor }}
+        style={{ backgroundColor }}
       >
-        <img
-          src='/logoIconWhite.svg'
-          alt='Storybook Flying with Fairy Dust trailing'
-          className='w-[20vw] z-[100]'
-        />
+        <a href='#top'>
+          <img
+            src='/logoIconWhite.svg'
+            alt='Storybook Flying with Fairy Dust trailing'
+            className='w-[20vw] z-[100]'
+          />
+        </a>
         <img
           src='/hbMenu.svg'
           alt='Menu Icon'
