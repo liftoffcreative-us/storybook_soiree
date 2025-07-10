@@ -28,7 +28,11 @@ const retreats = () => {
 
   return (
     <div ref={mainBody} id='top' className='w-screen bg-ssLavender'>
-      <NavBarAlt bgColor={'#a48eae'} />
+      <NavBarAlt
+        tsClass={
+          'hidden md:flex fixed items-center justify-between w-screen h-[10vh] px-[6vw] py-2 z-50 overflow-hidden bg-purple-200/30 bg-clip-padding backdrop-filter backdrop-blur-md '
+        }
+      />
       <NavBarMobileAlt scroll={scrollYProgressTarget2} />
       <RetreatHero />
       <RetreatHeroMobile />

@@ -6,7 +6,7 @@ import { FaTiktok } from 'react-icons/fa6';
 import { FaEnvelope } from 'react-icons/fa';
 import { motion, useTransform } from 'framer-motion';
 
-const NavBarAlt = ({ bgColor }) => {
+const NavBarAlt = ({ tsClass }) => {
   // const backgroundColor = useTransform(
   //   scroll,
   //   [0, 0.24, 0.25, 0.4, 0.41, 0.671, 0.69, 0.85, 0.86, 1],
@@ -50,10 +50,7 @@ const NavBarAlt = ({ bgColor }) => {
   // );
 
   return (
-    <motion.nav
-      className='hidden md:flex fixed items-center justify-between w-screen h-[10vh] px-[6vw] py-2 z-50 overflow-hidden '
-      style={{ backgroundColor: bgColor }}
-    >
+    <motion.nav className={tsClass}>
       <a href='#home' id='logo' className='flex items-center h-[100%] -mt-3'>
         <motion.svg
           alt='Storybook Soiree Logo'

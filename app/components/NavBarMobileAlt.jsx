@@ -3,18 +3,18 @@ import React from 'react';
 import { useState } from 'react';
 import { motion, useTransform } from 'framer-motion';
 
-const NavBarMobileAlt = ({ scroll }) => {
+const NavBarMobileAlt = ({ tsClass }) => {
   const [open, setOpen] = useState(false);
-  const backgroundColor = useTransform(
-    scroll,
-    [0, 0.587, 0.598, 1],
-    [
-      'rgba(164,142,174, 1)',
-      'rgba(164,142,174, 1)',
-      'rgba(17,9,38, 1)',
-      'rgba(17,9,38, 1)',
-    ]
-  );
+  // const backgroundColor = useTransform(
+  //   scroll,
+  //   [0, 0.587, 0.598, 1],
+  //   [
+  //     'rgba(164,142,174, 1)',
+  //     'rgba(164,142,174, 1)',
+  //     'rgba(17,9,38, 1)',
+  //     'rgba(17,9,38, 1)',
+  //   ]
+  // );
 
   // const color = useTransform(
   //   scroll,
@@ -41,10 +41,10 @@ const NavBarMobileAlt = ({ scroll }) => {
   //   ]
   // );
   return (
-    <div className='fixed flex w-screen h-auto text-white md:hidden z-[1000]'>
+    <div className={tsClass}>
       <motion.div
-        className='flex items-center justify-between w-screen h-[12vh] p-6'
-        style={{ backgroundColor }}
+        className='flex items-center justify-between w-screen h-[10vh] p-6'
+        // style={{ backgroundColor }}
       >
         <a href='#top'>
           <img
