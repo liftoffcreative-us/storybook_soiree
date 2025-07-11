@@ -4,7 +4,7 @@ const FrostFireHero = ({ mainBody }) => {
   return (
     <div
       ref={mainBody}
-      className='w-screen md:py-[10vh] py-[12vh] flex flex-col items-center justify-center'
+      className='w-screen md:py-[10vh] py-[12vh] flex flex-col items-center justify-center mb-12 '
     >
       <h1 className='font-lavishly md:text-[8em] text-[2.7em]'>
         The FrostFire Ball

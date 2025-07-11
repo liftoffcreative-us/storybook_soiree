@@ -35,7 +35,7 @@ const FrostFire = () => {
             Kingdom?
           </p>
           <a
-            href=''
+            href='/frostfire'
             className='flex items-center justify-center mt-6 md:w-[15vw] w-[60vw] h-[8vh] md: bg-blue-600 rounded-3xl border-2 border-white font-bold'
           >
             SEE TICKET PACKAGES

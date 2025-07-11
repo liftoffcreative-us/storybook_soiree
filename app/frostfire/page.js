@@ -15,6 +15,7 @@ import Image from 'next/image';
 import FrostFireHero from '../components/frostfireComps/FrostFireHero';
 import RoyalDecree from '../components/frostfireComps/RoyalDecree';
 import RoyalDecreeMobile from '../components/frostfireComps/RoyalDecreeMobile';
+import Packages from '../components/frostfireComps/Packages';
 
 const frostfire = () => {
   const mainBody = useRef(null);
@@ -45,6 +46,7 @@ const frostfire = () => {
       <FrostFireHero mainBody={mainBody} />
       <RoyalDecree y={y} />
       <RoyalDecreeMobile />
+      <Packages />
       <div className='w-screen h-screen'></div>
     </div>
   );
