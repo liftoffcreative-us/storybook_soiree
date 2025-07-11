@@ -24,9 +24,9 @@ export async function POST(request) {
       user: process.env.EMAIL,
       pass: process.env.PASSWORD,
     },
-    // tls: {
-    //   rejectUnauthorized: false,
-    // },
+    tls: {
+      rejectUnauthorized: false,
+    },
   });
   console.log(JSON.stringify(body));
 
