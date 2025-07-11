@@ -25,7 +25,7 @@ const Retreat2 = () => {
           <div className='flex md:flex-row flex-col items-center w-[100%] md:h-[65%] gap-6 md:mt-0 mt-8'>
             <div
               id='card1'
-              className='md:w-[40%] w-full min-h-[85%] h-auto flex flex-col md:items-start items-center justify-start bg-ssPurple rounded-3xl hover:outline-purple-500 hover:outline-4 transition-all duration-150 px-4 py-6'
+              className=' md:w-[40%] w-full h-[85%] flex flex-col md:items-start items-center justify-start bg-ssPurple rounded-3xl hover:outline-purple-500 hover:outline-4 transition-all duration-150 px-4 py-6'
             >
               <div className='flex flex-col w-full h-[17%]'>
                 <h2 className='text-indigo-400 font-alfarn text-[1.2em] flex items-center justify-center md:justify-start w-full leading-6'>
