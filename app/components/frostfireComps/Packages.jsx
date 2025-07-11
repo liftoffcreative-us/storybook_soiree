@@ -3,22 +3,26 @@ import Image from 'next/image';
 const Packages = () => {
   return (
     <div className='w-screen h-auto flex flex-col items-center gap-6'>
-      <h2 className='font-indivisibleBold md:text-[3.5em]'>PACKAGES</h2>
+      <h2 className='font-indivisibleBold md:text-[3.5em] text-[2em] leading-tight'>
+        PACKAGES
+      </h2>
       <div
         id='package1'
-        className='w-[70%] h-[auto] bg-white rounded-3xl flex items-center justify-center p-6 my-[5vh]'
+        className='md:w-[70%] w-[90%] h-[auto] bg-white rounded-3xl md:flex md:flex-row flex-col items-center justify-center gap-6 p-6 my-[5vh]'
       >
         <Image
           src='/package1.png'
           alt='A picture showing what is included in the basic package'
           width={945}
           height={1181}
-          className='h-[80vh] w-auto rounded-2xl'
+          className='md:h-[80vh] w-auto rounded-2xl mb-6 md:mb-0'
         />
-        <div className='w-1/2  flex flex-col items-center justify-center gap-4 text-[#000c52] text-center'>
-          <h3 className='md:text-[3em] leading-5'>The Artisan's Spark</h3>
+        <div className='md:w-1/2  flex flex-col items-center justify-center text-[#000c52] text-center'>
+          <h3 className='md:text-[3em] text-[2em] leading-tight'>
+            The Artisan's Spark
+          </h3>
           <h5 className='md:text-[2em]'>Faire Only</h5>
-          <p className='w-2/3'>
+          <p className='md:w-2/3'>
             Immerse yourself in a unique marketplace Access to The Artisans and
             Authors FrostFire Faire (10:00 AM - 3:00 PM)
             <br />
@@ -30,8 +34,8 @@ const Packages = () => {
             <br />
             Non-Alcoholic Beverages and Delightful Bites included.
           </p>
-          <h3 className='font-black md:text-[4em] flex items-center '>
-            <span className='md:text-[3rem]'>$</span>30
+          <h3 className='font-black md:text-[4em] text-[3em] flex items-center '>
+            <span className='md:text-[3rem] text-[2rem]'>$</span>30
           </h3>
           <a
             href='https://storybook-soirees.square.site/product/the-artisan-s-spark-faire-only/DBA2JFWCJ5NHWMTG3C5R5WYY?cs=true&cst=custom'
@@ -46,12 +50,21 @@ const Packages = () => {
 
       <div
         id='package2'
-        className='w-[70%] h-[auto] bg-white rounded-3xl flex items-center justify-center p-6'
+        className='md:w-[70%] w-[90%] h-[auto] bg-white rounded-3xl md:flex md:flex-row flex-col items-center justify-center gap-6 p-6 my-[5vh]'
       >
-        <div className='w-1/2 flex flex-col items-center justify-center gap-4 text-[#000c52] text-center py-[2vh]'>
-          <h3 className='md:text-[3em] leading-5'>Courtier's Winter Embrace</h3>
+        <Image
+          src='/package2.png'
+          alt='A picture showing what is included in the basic package'
+          width={945}
+          height={1181}
+          className=' md:hidden md:h-[80vh] w-auto rounded-2xl my-6 md:mb-0'
+        />
+        <div className='md:w-1/2  flex flex-col items-center justify-center text-[#000c52] text-center gap-4'>
+          <h3 className='md:text-[3em] text-[2em] leading-tight'>
+            Courtier's Winter Embrace
+          </h3>
           <h5 className='md:text-[2em]'>General Admission</h5>
-          <p className='w-3/4 md:text-[.8em]'>
+          <p className='md:w-3/4 md:text-[.8em]'>
             <span className='font-bold'>
               Access to The Artisans and Authors FrostFire Faire (10:00 AM -
               3:00 PM):
@@ -115,8 +128,8 @@ const Packages = () => {
               be her ruin?
             </span>
           </p>
-          <h3 className='font-black md:text-[4em] flex items-center '>
-            <span className='md:text-[3rem]'>$</span>325
+          <h3 className='font-black md:text-[4em] text-[3em] flex items-center '>
+            <span className='md:text-[3rem] text-[2rem]'>$</span>325
           </h3>
           <a
             href='https://storybook-soirees.square.site/product/courtier-winter-embrace-ga/5S7HFY7FL4HHPJR3OTXSDNQB?cs=true&cst=custom'
@@ -132,25 +145,27 @@ const Packages = () => {
           alt='A picture showing what is included in the basic package'
           width={945}
           height={1181}
-          className='h-[80vh] w-auto rounded-2xl'
+          className='hidden md:flex md:h-[80vh] w-auto rounded-2xl my-6 md:mb-0'
         />
       </div>
 
       <div
         id='package3'
-        className='w-[70%] h-auto bg-white rounded-3xl flex items-center justify-center p-6 my-[5vh]'
+        className='md:w-[70%] w-[90%] h-[auto] bg-white rounded-3xl md:flex md:flex-row flex-col items-center justify-center gap-6 p-6 my-[5vh]'
       >
         <Image
           src='/package3.png'
           alt='A picture showing what is included in the basic package'
           width={945}
           height={1181}
-          className='h-[80vh] w-auto rounded-2xl'
+          className='md:h-[80vh] w-auto rounded-2xl mb-6 md:mb-0'
         />
-        <div className='w-1/2 flex flex-col items-center justify-center gap-4 text-[#000c52] text-center py-[2vh]'>
-          <h3 className='md:text-[3em] leading-5'>The Rebel's Flame</h3>
+        <div className='md:w-1/2  flex flex-col items-center justify-center text-[#000c52] text-center gap-4'>
+          <h3 className='md:text-[3em] text-[2em] leading-tight'>
+            The Rebel's Flame
+          </h3>
           <h5 className='md:text-[2em]'>VIP Access</h5>
-          <p className='w-2/3'>
+          <p className='md:w-2/3'>
             <span className='font-bold'>
               All Inclusions of the Courtier’s Winter Embrace PLUS:
             </span>
@@ -190,8 +205,8 @@ const Packages = () => {
               Be Part of the Story - Save the Queen? or Overthrow Her?
             </span>
           </p>
-          <h3 className='font-black md:text-[4em] flex items-center '>
-            <span className='md:text-[3rem]'>$</span>400
+          <h3 className='font-black md:text-[4em] text-[3em] flex items-center '>
+            <span className='md:text-[3rem] text-[2rem]'>$</span>400
           </h3>
           <a
             href='https://storybook-soirees.square.site/product/the-rebel-s-flame-vip/MJQ3WIOJN462JHUBUGCZKSQV?cs=true&cst=custom'
