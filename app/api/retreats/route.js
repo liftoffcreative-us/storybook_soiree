@@ -8,7 +8,7 @@ const nodemailer = require('nodemailer');
 export async function POST(request) {
   const body = await request.json();
   const message = {
-    from: 'retreats@storybooksoirees.com',
+    from: process.env.EMAIL,
     to: process.env.EMAIL,
     // cc: process.env.CCEMAIL,
     subject: 'A New Retreat Information Request',
