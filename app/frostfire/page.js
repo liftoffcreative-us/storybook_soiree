@@ -16,6 +16,7 @@ import FrostFireHero from '../components/frostfireComps/FrostFireHero';
 import RoyalDecree from '../components/frostfireComps/RoyalDecree';
 import RoyalDecreeMobile from '../components/frostfireComps/RoyalDecreeMobile';
 import Packages from '../components/frostfireComps/Packages';
+import Cast from '../components/frostfireComps/Cast';
 
 const frostfire = () => {
   const mainBody = useRef(null);
@@ -47,7 +48,7 @@ const frostfire = () => {
       <RoyalDecree y={y} />
       <RoyalDecreeMobile />
       <Packages />
-      <div className='w-screen h-screen'></div>
+      <Cast />
     </div>
   );
 };

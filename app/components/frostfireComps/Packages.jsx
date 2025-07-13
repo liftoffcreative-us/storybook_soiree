@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Packages = () => {
   return (
-    <div className='w-screen h-auto flex flex-col items-center gap-6'>
+    <div className='w-screen h-auto flex flex-col items-center gap-6 mb-[10vh]'>
       <h2 className='font-indivisibleBold md:text-[3.5em] text-[2em] leading-tight'>
         PACKAGES
       </h2>
