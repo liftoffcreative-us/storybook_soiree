@@ -17,6 +17,7 @@ import RoyalDecree from '../components/frostfireComps/RoyalDecree';
 import RoyalDecreeMobile from '../components/frostfireComps/RoyalDecreeMobile';
 import Packages from '../components/frostfireComps/Packages';
 import Cast from '../components/frostfireComps/Cast';
+import Footer from '../components/Footer';
 
 const frostfire = () => {
   const mainBody = useRef(null);
@@ -32,7 +33,10 @@ const frostfire = () => {
   const y = useTransform(scrollYProgressTarget2, [0, 1], [500, -1000]);
 
   return (
-    <div className='relative w-screen  bg-linear-to-br from-blue-800 to-cyan-500 overflow-clip'>
+    <div
+      id='home'
+      className='relative w-screen  bg-linear-to-br from-blue-800 to-cyan-500 overflow-clip'
+    >
       <Snowfall snowflakeCount={200} />
       <NavBarAlt
         tsClass={
@@ -49,6 +53,7 @@ const frostfire = () => {
       <RoyalDecreeMobile />
       <Packages />
       <Cast />
+      <Footer />
     </div>
   );
 };
