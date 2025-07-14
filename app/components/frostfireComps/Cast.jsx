@@ -17,7 +17,7 @@ const Cast = () => {
         className='md:w-screen w-[80%] md:h-[60%] h-auto flex md:flex-row flex-col items-center justify-center'
       >
         <a
-          href='https://www.instagram.com/kickasskimikat/'
+          href='https://www.instagram.com/_thebookishlifeofsyd/'
           target='_blank'
           className='flex items-center justify-center h-[550px] md:w-[350px] w-[400px] -mr-[10vw] md:-mt-[5vh] cursor-pointer'
         >
@@ -69,7 +69,7 @@ const Cast = () => {
           />
         </a>
         <a
-          href='https://www.instagram.com/_thebookishlifeofsyd/'
+          href='https://www.instagram.com/kickasskimikat/'
           target='_blank'
           className='flex items-center justify-center h-[550px] md:w-[350px] w-[400px] -ml-[5vw] -mt-[2vh] cursor-pointer'
         >
