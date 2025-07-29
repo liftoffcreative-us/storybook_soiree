@@ -1,15 +1,15 @@
 import React from 'react';
 import booksData from './booksData';
-const BOTM = () => {
-  const date = new Date();
-  const fullMonthName = date.toLocaleString('default', { month: 'long' });
-  console.log(fullMonthName);
-  const thisMonth = booksData.filter((book) => book.month === fullMonthName);
+const PastBOTM = ({ month, color }) => {
+  const thisMonth = booksData.filter((book) => book.month === month);
   console.log(thisMonth);
   return (
-    <div className='flex flex-col items-center justify-center bg-ssLavender w-screen h-auto py-[5vh]'>
+    <div
+      className='flex flex-col items-center justify-center w-screen h-auto '
+      style={{ backgroundColor: color }}
+    >
       <h2 className='font-a-day-without font-bold md:text-[4rem] text-[2rem] text-center'>
-        THIS MONTH'S READS
+        {month} Reads
       </h2>
       <div className='flex md:flex-row flex-col items-center justify-center gap-6 w-[90vw] overflow-hidden py-[5vh]'>
         {thisMonth.map((book) => {
@@ -26,7 +26,7 @@ const BOTM = () => {
               <div className='flex flex-col items-center justify-between gap-2 pb-[3vh] bg-white rounded-2xl w-full h-[400px] text-ssPurple text-center px-4 '>
                 <div className='h-[110px]'></div>
                 <div>
-                  <h3 className='font-indivisibleBold text-[2em] leading-tight'>
+                  <h3 className='font-indivisibleBold text-[1.8em] leading-tight'>
                     {book.bookName}
                   </h3>
                   <h4 className='text-[1.2em] font-indivisible font-light'>
@@ -48,4 +48,4 @@ const BOTM = () => {
   );
 };
 
-export default BOTM;
+export default PastBOTM;

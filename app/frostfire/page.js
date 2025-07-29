@@ -40,7 +40,7 @@ const frostfire = () => {
       <Snowfall snowflakeCount={200} />
       <NavBarAlt
         tsClass={
-          'hidden md:flex fixed items-center justify-between w-screen h-[10vh] px-[6vw] py-2 z-[1000] overflow-hidden bg-blue-200/30 bg-clip-padding backdrop-filter backdrop-blur-md '
+          'hidden md:flex fixed items-center justify-between w-screen h-[10vh] px-[6vw] py-2 z-[1000] overflow-hidden bg-blue-400/30 bg-clip-padding backdrop-filter backdrop-blur-md  '
         }
       />
       <NavBarMobileAlt
