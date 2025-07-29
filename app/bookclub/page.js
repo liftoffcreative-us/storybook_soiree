@@ -28,7 +28,7 @@ const bookclub = () => {
   // });
 
   return (
-    <div className='w-screen h-screen'>
+    <div className='w-screen h-screen' id='home'>
       <NavBarAlt
         tsClass={
           'hidden md:flex fixed items-center justify-between w-screen h-[10vh] px-[6vw] py-2 z-50 overflow-hidden bg-purple-200/30 bg-clip-padding backdrop-filter backdrop-blur-md '

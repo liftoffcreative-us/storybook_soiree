@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import Image from 'next/image';
+
 import { RiInstagramFill, RiDiscordFill } from 'react-icons/ri';
 import { FaTiktok } from 'react-icons/fa6';
 import { FaEnvelope } from 'react-icons/fa';
@@ -100,13 +100,13 @@ const NavBar = ({ scroll }) => {
         <a href='#about'>
           <li>ABOUT</li>
         </a>
-        <a href='#book-club'>
+        <a href='/bookclub'>
           <li>BOOK CLUB</li>
         </a>
-        <a href='#retreats'>
+        <a href='/retreats'>
           <li>BOOKISH RETREATS</li>
         </a>
-        <a href='#frostfire'>
+        <a href='/frostfire'>
           <li>FROSTFIRE BALL</li>
         </a>
         <a href=''>

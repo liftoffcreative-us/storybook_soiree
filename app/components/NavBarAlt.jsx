@@ -1,54 +1,12 @@
 'use client';
 import React, { useState } from 'react';
-import Image from 'next/image';
+
 import { RiInstagramFill, RiDiscordFill } from 'react-icons/ri';
 import { FaTiktok } from 'react-icons/fa6';
 import { FaEnvelope } from 'react-icons/fa';
-import { motion, useTransform } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const NavBarAlt = ({ tsClass }) => {
-  // const backgroundColor = useTransform(
-  //   scroll,
-  //   [0, 0.24, 0.25, 0.4, 0.41, 0.671, 0.69, 0.85, 0.86, 1],
-  //   [
-  //     'rgba(17,9,38, 0)',
-  //     'rgba(17,9,38, 0)',
-  //     'rgba(17,9,38, 1)',
-  //     'rgba(17,9,38, 1)',
-  //     'rgba(164,142,174, 1)',
-  //     'rgba(164,142,174, 1)',
-  //     'rgba(252,209,245, 1)',
-  //     'rgba(252,209,245, 1)',
-  //     'rgba(17,9,38, 0)',
-  //     'rgba(17,9,38, 0)',
-  //   ]
-  // );
-
-  // const color = useTransform(
-  //   scroll,
-  //   [0, 0.671, 0.69, 0.85, 0.86, 1],
-  //   [
-  //     'rgba(255, 255, 255, 1)',
-  //     'rgba(255, 255, 255, 1)',
-  //     'rgba(17, 9, 38, 1)',
-  //     'rgba(17, 9, 38, 1)',
-  //     'rgba(255, 255, 255, 1)',
-  //     'rgba(255, 255, 255, 1)',
-  //   ]
-  // );
-  // const fill = useTransform(
-  //   scroll,
-  //   [0, 0.671, 0.69, 0.85, 0.86, 1],
-  //   [
-  //     'rgba(255, 255, 255, 1)',
-  //     'rgba(255, 255, 255, 1)',
-  //     'rgba(17, 9, 38, 1)',
-  //     'rgba(17, 9, 38, 1)',
-  //     'rgba(255, 255, 255, 1)',
-  //     'rgba(255, 255, 255, 1)',
-  //   ]
-  // );
-
   return (
     <motion.nav className={tsClass}>
       <a href='#home' id='logo' className='flex items-center h-[100%] -mt-3'>
